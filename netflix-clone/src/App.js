@@ -1,10 +1,16 @@
 
 import './App.css';
+import Header from './Components/Header/Header';
+import Home from './Pages/Home';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-<h1>bete the great</h1>
+<Home/>
+<Header/>
+<Footer/>
+
 
     </div>
   );
