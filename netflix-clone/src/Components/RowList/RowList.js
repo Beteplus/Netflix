@@ -25,22 +25,22 @@ function RowList() {
     fetchUrl={request.fetchComedyMovies}
     />
     <Row title="Documentaries"
-    fetchUrl={request.fetchDocumenteries}
+    fetchUrl={request.fetchDocumentary}
     />
     <Row title="Horror Movies"
     fetchUrl={request.fetchHorrorMovies}
     />
     <Row title="Fantacy"
-    fetchUrl={request.fetchFantasy}
+    fetchUrl={request.fetchFantasyMovies}
     />
      <Row title="Science Fiction"
-    fetchUrl={request.fetchScience}
+    fetchUrl={request.fetchScienceFictionMovies}
     />
      <Row title="Music"
-    fetchUrl={request.fetchMusic}
+    fetchUrl={request.fetchMusicMovies}
     />
      <Row title="Mystry"
-    fetchUrl={request.fetchMystry}
+    fetchUrl={request.fetchMysteryMovies}
     />
 
     
